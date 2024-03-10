@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/blog.css">
+    <title>Microblogging App</title>
+</head>
+<body>
+    <header>
+        <h1>Microblogging App</h1>
+        <button id="create-blog">Create Blog</button>
+    </header>
+
+    <section id="blogs">
+        <!-- Blog elements will be added here dynamically -->
+    </section>
+
+    <div id="new-blog" class="hidden">
+        <input type="text" id="title" placeholder="Title" required>
+        <textarea id="content" placeholder="Content"></textarea>
+        <input type="text" id="author" placeholder="Author" required>
+        <button id="add-blog">Add Blog</button>
+    </div>
+
+    <div id="edit-blog" class="hidden">
+        <input type="text" id="edit-title" placeholder="Title">
+        <textarea id="edit-content" placeholder="Content"></textarea>
+        <input type="text" id="edit-author" placeholder="Author">
+        <button id="update-blog">Update Blog</button>
+    </div>
+
+    <script src="js/blog.js"></script>
+</body>
+</html>
