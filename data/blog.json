@@ -1,0 +1,20 @@
+[
+    {
+     "title":"To Kill a Mockingbird",
+     "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sapiente maxime possimus doloribus unde, dicta expedita, corporis est tempora fugit sed saepe. Libero, aut! Qui itaque debitis officia non ipsa?",
+    "author":"Harper lee",
+    "creationdate":"05/05/2020"
+    },
+    {
+        "title":"Catch-22",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sapiente maxime possimus doloribus unde, dicta expedita, corporis est tempora fugit sed saepe. Libero, aut! Qui itaque debitis officia non ipsa?",
+       "author":"Joseph Heller",
+       "creationdate":"25/07/2020"
+    },
+    {
+        "title":"The Great Gatsby",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sapiente maxime possimus doloribus unde, dicta expedita, corporis est tempora fugit sed saepe. Libero, aut! Qui itaque debitis officia non ipsa?",
+       "author":"Scott Fitzgerald",
+       "creationdate":"05/05/2020"   
+    }
+]
