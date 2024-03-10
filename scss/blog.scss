@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f1cae9db;
+}
+
+.container {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f18aae;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+// For the heading 
+h1 {
+    background-color: #b51895db;
+    color: white;
+    padding: 10px;
+}
+
+.blogs {
+    text-align: left;
+    padding: 10px;
+}
+// hides the content
+.hidden {
+    display: none;
+}
+
+button {
+    margin-top: 10px;
+}
+// For the text boxes when displayed
+textarea, input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+#blogs .blog {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+// When hoved over the content 
+#blogs .blog:hover {
+    background-color: #8f3535;
+}
+// called form the js
+.expanded {
+    max-height: 1000px;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+
+.blog {
+    /* Your existing styles */
+    cursor: pointer; /* Add this to indicate that blogs are clickable */
+    transition: max-height 0.3s ease; /* Add a CSS transition for max-height */
+    overflow: hidden; /* Hide the content initially */
+    max-height: 50px; /* Set a maximum height to create the expand effect */
+}
+
+.blog.expanded {
+    max-height: 100%; /* Expand the max-height to reveal the content */
+}
